@@ -10,6 +10,6 @@ module "label" {
 }
 
 resource "aws_elastic_beanstalk_application" "default" {
-  name        = module.label.id
+  name        = var.custom_name ? var.application_name : module.label.id
   description = var.description
 }
