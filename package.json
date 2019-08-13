@@ -1,0 +1,22 @@
+{
+  "name": "terraform-aws-elastic-beanstalk-application",
+  "version": "0.1.6",
+  "description": "Terraform Module to define an ElasticBeanstalk Application",
+  "main": "main.tf",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pgalchemy/terraform-aws-elastic-beanstalk-application.git"
+  },
+  "author": "Jeremiah Harlan <jeremiah.harlan@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pgalchemy/terraform-aws-elastic-beanstalk-application/issues"
+  },
+  "homepage": "https://github.com/pgalchemy/terraform-aws-elastic-beanstalk-application#readme"
+}
