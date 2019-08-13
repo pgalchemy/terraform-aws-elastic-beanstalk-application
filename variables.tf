@@ -32,3 +32,15 @@ variable "tags" {
   default     = {}
   description = "Additional tags (e.g. `map('BusinessUnit','XYZ')`)"
 }
+
+variable "custom_name" {
+  type = bool
+  default = false
+  description = "Boolean value to override Elastic Beanstalk application"
+}
+
+variable "application_name" {
+  type = string
+  default = ""
+  description = "Custom name of Elastic Beanstalk application"
+}
